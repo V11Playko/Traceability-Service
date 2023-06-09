@@ -1,0 +1,13 @@
+server:
+  port: 8095
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/traceability
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+appDescription: "Food Court - traceability-service"
+appVersion: "1.0.0"
